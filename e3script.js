@@ -1,1 +1,2 @@
-Array.from($('frame')[2].contentDocument.querySelectorAll('input[value="4"]')).map(ele => ele.checked = true)
+Array.from($('frame')[2].contentDocument.querySelectorAll('table')[1].querySelectorAll('input[value="4"]')).map(ele => ele.checked = true)
+Array.from($('frame')[2].contentDocument.querySelectorAll('table')[2].querySelectorAll('input[value="2"]')).map(ele => ele.checked = true)
